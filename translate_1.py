@@ -1,3 +1,9 @@
+"""
+Написать функцию num_translate(), переводящую числительные от 0 до 10 c английского на русский язык.
+"""
+
+
+
 def num_translate(word):
     english_word = ['zero', 'one', 'two', 'tree', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     russian_word = ['ноль', 'один', 'два', 'три', 'четыре', 'пять', 'шесть', 'семь', 'восемь', 'девять']
