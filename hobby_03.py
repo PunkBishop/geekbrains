@@ -1,10 +1,13 @@
 import json
+import sys
 
 
 def add_none(first, second):
     for _ in range(len(first)):
         if len(first) > len(second):
             second.append(f'{None}')
+        elif len(first) < len(second):
+            sys.exit(1)
     return second
 
 
